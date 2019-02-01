@@ -1,0 +1,33 @@
+.elephantContainer, .head, .body, .legs {
+    position: absolute;
+}
+
+.elephantContainer {
+    margin: 10% auto;
+    border: 1px solid lime;
+    width: 300px;
+    height: 300px;
+}
+
+.head { 
+    background: pink;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.body {
+    left: 50%;
+    top: 0;
+    width: 200px;
+    height: 100px;
+    background: cadetblue;
+    top: 30%;
+
+}
+
+.legs {
+    width: 50px;
+    height: 200px;
+    background: lightgoldenrodyellow;
+}

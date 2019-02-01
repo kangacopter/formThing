@@ -44,24 +44,37 @@ p {
     border-radius: 0 0 25% 25%;
 }
 
-.container:after {
-    clear: both;
+.container {
+    border: 1px solid yellow;
 }
+
+/* .clearfix {
+    clear: both;
+} */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 .container > div {
     float: left;
     width: 50%;
 }
 .formSection {
-    /* float: left;
-    width: 48%; */
     border: 1px solid red;
 }
 
 .animalContainer {
-    /* float: right;
-    width: 48%; */
     border: 1px solid blue;
+    position: relative;
+}
+
+.footer {
+    clear: both;
+    background: gray;
+    width: 100%
 }
 
 @media all and (max-width: 1024px) {

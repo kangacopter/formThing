@@ -3,6 +3,8 @@
   <head>
     <title>Elephant Color Fun.</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="animal.css" />
+
   </head>
 
   <body>
@@ -14,7 +16,7 @@
         tusks.
       </p>
 
-      <div class="container">
+      <div class="container clearfix">
         <div class="formSection">
           <form>
             <!-- I eventually want to make this input change color as the user puts in colors.
@@ -42,13 +44,27 @@
           </form>
         </div>
 
-      <div class="animalContainer">
-        <p>
-          Animal goes here Animal goes here Animal goes here Animal goes here
-          Animal goes here
-        </p>
+        <div class="animalContainer">
+          <p>
+            [Animal Name] 
+          </p>
+          <!-- This is where the animal will start -->
+          <div class="elephantContainer clearfix">
+            <div class="head">0.0</div>
+
+            <div class="body"></div>
+
+            <div class="legs"></div>
+
+            <div class="feet"></div>
+          </div>
+
+          <!-- This is where the animal will end -->
+        </div>
+
       </div>
-    </div>
+      <div class="footer">footer!</div>
+
     </div>
   </body>
 </html>
